@@ -19,6 +19,8 @@ code {
 
 }
 
+
+
 a {
   text-decoration: none;
 }
@@ -63,6 +65,11 @@ p, a, h1, h2, h3, h4, h5, label, button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.profile-avatar {
+  width: 50%;
+  height: 50%;
 }
 
 .header-image {
