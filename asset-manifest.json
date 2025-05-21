@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfoliofinal/static/css/main.fb6b9997.css",
+    "main.js": "/portfoliofinal/static/js/main.e672d400.js",
+    "static/js/453.b05d8aa5.chunk.js": "/portfoliofinal/static/js/453.b05d8aa5.chunk.js",
+    "static/media/campus-fire-users.png": "/portfoliofinal/static/media/campus-fire-users.0bb9592a278a316ccb2b.png",
+    "static/media/avatar.png": "/portfoliofinal/static/media/avatar.af81cca1c320a9618287.png",
+    "static/media/safehaven-login.png": "/portfoliofinal/static/media/safehaven-login.2c82c520686fa4129aaa.png",
+    "static/media/bg-light.png": "/portfoliofinal/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/portfoliofinal/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/ecometrics.png": "/portfoliofinal/static/media/ecometrics.98118f1e3b0cf6d28e17.png",
+    "static/media/code-clash.png": "/portfoliofinal/static/media/code-clash.83aed725b462ed18f982.png",
+    "static/media/warcraft.png": "/portfoliofinal/static/media/warcraft.6a9a669c3580e0f955ad.png",
+    "static/media/MindNMe.png": "/portfoliofinal/static/media/MindNMe.a9e3f72108c3c7d46ff2.png",
+    "index.html": "/portfoliofinal/index.html",
+    "main.fb6b9997.css.map": "/portfoliofinal/static/css/main.fb6b9997.css.map",
+    "main.e672d400.js.map": "/portfoliofinal/static/js/main.e672d400.js.map",
+    "453.b05d8aa5.chunk.js.map": "/portfoliofinal/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb6b9997.css",
+    "static/js/main.e672d400.js"
+  ]
+}
