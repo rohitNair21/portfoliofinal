@@ -1,70 +1,70 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import CampusFire from '../assets/images/campus-fire-users.png';
+import SafeHavenLogin from '../assets/images/safehaven-login.png';
+import MindNMe from '../assets/images/MindNMe.png';
+import CodeClash from '../assets/images/code-clash.png';
+import Ecometrics from '../assets/images/ecometrics.png';
+import Warcraft from '../assets/images/warcraft.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+        <h1>Personal Projects (Scrollable Images)</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <div className="image-wrapper">
+                    <a href="https://github.com/orgs/Campus-Fire/" target="_blank" rel="noreferrer">
+                        <img src={CampusFire} className="zoom" alt="thumbnail"/>
+                    </a>
+                </div>
+                <a href="https://github.com/orgs/Campus-Fire/" target="_blank" rel="noreferrer"><h2>CampusFire</h2></a>
+                <p>Developed a vibrant iOS social platform for University of Calgary students using SwiftUI, with an Events feature powered by seven custom GraphQL schemas and mutations.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <div className="image-wrapper">
+                    <a href="https://github.com/rohitNair21/CalgaryHacks?tab=readme-ov-file" target="_blank" rel="noreferrer">
+                        <img src={SafeHavenLogin} className="zoom" alt="thumbnail"/>
+                    </a>
+                </div>
+                <a href="https://github.com/rohitNair21/CalgaryHacks?tab=readme-ov-file" target="_blank" rel="noreferrer"><h2>SafeHaven</h2></a>
+                <p>Designed a React Native mobile app to support immigrant women facing domestic violence, featuring live chat with real-time translation, safe community peer-support spaces, and a resource hub—powered by Firebase, Next.js & MongoDB, Google Maps & Translate APIs, Clerk for auth, and AWS S3 & CloudFront for storage and caching.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <div className="image-wrapper">
+                    <a href="https://www.childrenandyouthmentalhealth.com/" target="_blank" rel="noreferrer">
+                        <img src={MindNMe} className="zoom" alt="thumbnail"/>
+                    </a>
+                </div>
+                <a href="https://www.childrenandyouthmentalhealth.com/" target="_blank" rel="noreferrer"><h2>Mind&Me</h2></a>
+                <p>Led a team of six developers to build an end-to-end React Native prototype with customizable user profiles backed by SQLite and the OpenAI API, piloted with 12 users, and presented to industry stakeholders to secure $10 000 in funding.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <div className="image-wrapper">
+                    <a href="https://github.com/DaveOGQ/SENG513W25-FinalProject-CodeClash" target="_blank" rel="noreferrer">
+                        <img src={CodeClash} className="zoom" alt="thumbnail"/>
+                    </a>
+                </div>
+                <a href="https://github.com/DaveOGQ/SENG513W25-FinalProject-CodeClash" target="_blank" rel="noreferrer"><h2>Code Clash</h2></a>
+                <p>Built a real-time competitive coding platform with a React + Tailwind CSS frontend and a Spring Boot backend (using WebSocket endpoints for live gameplay, PostgreSQL for persistence, and Judge0 for sandboxed code execution), featuring lobby management, difficulty tiers, live leaderboards, and OAuth via Firebase Auth.</p>
             </div>
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+                <div className="image-wrapper">
+                    <a href="https://devpost.com/software/portfolio-ecometrics" target="_blank" rel="noreferrer">
+                        <img src={Ecometrics} className="zoom" alt="thumbnail"/>
+                    </a>
+                </div>
+                <a href="https://devpost.com/software/portfolio-ecometrics" target="_blank" rel="noreferrer"><h2>Ecometrics</h2></a>
+                <p>Built a React + TypeScript & MaterialUI frontend and ExpressJS/Node.js backend to let users upload Yahoo Finance portfolios, fetch ESG-related news via the GDELT Doc API, compute sentiment-based ESG scores for each holding, and accelerate performance with NodeCache.</p>
             </div>
             <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <div className="image-wrapper">
+                    <a href="https://docs.google.com/document/d/1N_cWtvfc9KobesOYK55itKkAuViqbTyz/edit?usp=sharing&ouid=115808004934181553801&rtpof=true&sd=true" target="_blank" rel="noreferrer">
+                        <img src={Warcraft} className="zoom" alt="thumbnail"/>
+                    </a>
+                </div>
+                <a href="https://docs.google.com/document/d/1N_cWtvfc9KobesOYK55itKkAuViqbTyz/edit?usp=sharing&ouid=115808004934181553801&rtpof=true&sd=true" target="_blank" rel="noreferrer"><h2>Raid Team Performance Predictor</h2></a>
+                <p>Built a data-driven model to forecast World of Warcraft raid success by extracting encounter metrics via the WarcraftLogs GraphQL API, preprocessing with Python and Pandas, and training a Random Forest regressor in scikit-learn. The pipeline aggregates individual player stats (damage, deaths, fight duration) into team-level features and achieves high predictive accuracy, offering actionable insights to optimize raid strategies.</p>
             </div>
         </div>
     </div>

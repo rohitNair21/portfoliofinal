@@ -10,14 +10,28 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
 }
-  
+
 .projects-container .projects-grid .project {
     text-align: left;
 }
-  
+
+.projects-container .projects-grid .project .image-wrapper {
+    height: 500px;
+    overflow-y: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.projects-container .projects-grid .project img {
+    width: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+
 .project h2:hover {
     text-decoration: underline;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
   
 .zoom {
